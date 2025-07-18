@@ -1,0 +1,1 @@
+<pre> ```mermaid sequenceDiagram participant User participant Frontend participant Backend participant Database User->>Frontend: Open App Frontend->>Backend: Fetch User Data Backend->>Database: Query User Info Database-->>Backend: Return User Info Backend-->>Frontend: Respond with Data Frontend-->>User: Render UI ``` </pre>
