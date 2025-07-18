@@ -1,1 +1,7 @@
-<pre> ```mermaid sequenceDiagram participant User participant Frontend participant Backend participant Database User->>Frontend: Open App Frontend->>Backend: Fetch User Data Backend->>Database: Query User Info Database-->>Backend: Return User Info Backend-->>Frontend: Respond with Data Frontend-->>User: Render UI ``` </pre>
+# Live Scoreboard Design
+
+This is the design of a live scoreboard service inlcuding broadcasting leaderboard to all users, update user score, store user record in the database.
+
+## Overall architecture
+
+![Architecture](./sa.png)
